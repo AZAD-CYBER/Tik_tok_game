@@ -15,7 +15,7 @@ function Board() {
         if (pos === position) {
           return isXNext ? "X" : "O";
         }
-        console.log(square, pos);
+      
         return square;
       });
     });
